@@ -18,9 +18,25 @@ print(np.degrees(0.52359878)) # Output : 30.00000025
 '''
 
 # Arithmatic Functions
-
+'''
 print(np.add(3,6)) # Output : 9
 
 print(np.subtract(9,6)) # Output : 3
 
 print(np.multiply(9,6)) # Output : 54
+
+print(np.divide(9,6)) # Output : 1.5
+
+print(np.power(9,6)) # Output : 531441
+
+print(np.mod(5,2)) # Output : 1
+'''
+
+# Rounding Functions
+
+print(np.floor(3.6)) # Output : 3.0
+
+print(np.ceil(3.6)) # Output : 4.0
+
+print(np.round(3.6)) # Output : 4.0
+
