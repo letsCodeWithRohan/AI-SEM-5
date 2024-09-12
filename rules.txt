@@ -2,5 +2,6 @@ IF hello THEN Hi there! How can I help you?
 IF bye THEN Goodbye! Have a great day!
 IF help THEN Sure, I'm here to help you.
 IF weather THEN It's a sunny day today.
-IF date THEN "Today is "+today.strftime("%d")+" "+today.strftime("%B")+","+today.strftime("%Y")
+IF hii THEN Hiii, How are you ?
+IF rohan THEN Web Developer
 IF joke THEN Why did the scarecrow win an award? Because he was outstanding in his field!

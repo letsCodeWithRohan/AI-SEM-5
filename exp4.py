@@ -1,5 +1,3 @@
-import datetime
-
 def load_rules(file_path):
     rules = {}
     with open(file_path, 'r') as file:
@@ -18,9 +16,6 @@ def respond_to_user_input(rules, user_input):
 def main():
     # Load rules from the file
     rules = load_rules('rules.txt')
-
-    today = datetime.datetime.now() #Added
-
     # Continuously ask for user input and respond
     print("Type your input (type 'exit' to quit):")
     while True:
@@ -29,7 +24,7 @@ def main():
             print("Goodbye!")
             break
         response = respond_to_user_input(rules, user_input)
-        print(response)
+        print(response) 
 
 if __name__ == '__main__':
     main()
