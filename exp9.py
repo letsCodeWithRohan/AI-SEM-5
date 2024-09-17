@@ -34,9 +34,10 @@ print(np.mod(5,2)) # Output : 1
 
 # Rounding Functions
 
-print(np.floor(3.6)) # Output : 3.0
+print("Floor Value : ",np.floor(3.6)) # Output : 3.0
 
-print(np.ceil(3.6)) # Output : 4.0
+print("Ceil Value : ",np.ceil(3.6)) # Output : 4.0
 
-print(np.round(3.6)) # Output : 4.0
+print("Rounded Value : ",np.round(3.6)) # Output : 4.0
 
+print("Trunceted Value : ",np.trunc(3.6)) # Output : 3.0
